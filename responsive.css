@@ -1,0 +1,125 @@
+@media (min-width: 1170px) {
+    #main-header {
+        width: 100%;
+        height: 100vh;
+        background-image: url(img/man-1.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    #main-header .main-caption {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #main-header .main-caption h1 {
+        width: 80%;
+        top: 45%;
+        left: 5%;
+        position: absolute;
+        color: white;
+        text-transform: uppercase;
+        font-size: 2.0vmax;
+
+    }
+
+    #main-header .main-caption h2 {
+        width: 80%;
+        top: 40%;
+        left: 5%;
+        position: absolute;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.5vmax;
+    }
+    
+    
+    
+}
+
+
+
+@media (max-width: 1170px) and (min-width:992px) {
+    #main-header {
+        width: 100%;
+        height: 70vh;
+        background-image: url(img/man-2.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    #main-header .main-caption {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #main-header .main-caption h1 {
+        width: 40%;
+        top: 11%;
+        right: 5%;
+        position: absolute;
+        color: white;
+        text-transform: uppercase;
+        font-size: 2.0vmax;
+
+    }
+
+    #main-header .main-caption h2 {
+        width: 40%;
+        top: 8%;
+        right: 5%;
+        position: absolute;
+        color: white;
+        text-transform: uppercase;
+        font-size: 1.5vmax;
+    }
+    
+    
+    
+}
+
+
+@media (max-width: 992px) {
+    #main-header {
+        width: 100%;
+        height: 50vh;
+        background-image: url(img/man-1.jpg);
+        background-size: cover;
+        background-position: center;
+        position: relative;
+    }
+
+    #main-header .main-caption {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #main-header .main-caption h1 {
+        width: 100%;
+        top: 55%;
+        left: 50%;
+        position: absolute;
+        color: black;
+        text-transform: uppercase;
+        font-size: 2.5vmax;
+        transform: translate(-50%, -50%);
+        text-align: center;
+
+    }
+
+    #main-header .main-caption h2 {
+        width: 100%;
+        top: 52%;
+        left: 50%;
+        position: absolute;
+        color: black;
+        text-transform: uppercase;
+        font-size: 2vmax;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
